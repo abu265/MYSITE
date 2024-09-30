@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 229, 232);
+}
+
+.container{
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+/* Commands */
+:root{
+    --subtitle: 40px;
+    --paragraph: 20px;
+    --product-font:
+
+}
+/* Navigation */
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 10%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position: sticky;
+    top: 0;
+}
+
+.logo span{
+    font-weight: 150;
+}
+.logo{
+    font-weight: 600;
+    cursor: pointer;
+}
+.navigation li a{
+    transition: all 0.4s ease 0s;
+}
+.navigation li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+
+
+
+.navigation li a:hover{
+    color: rgb(197, 204, 209);
+    
+}
+
+.navigation .current{
+    font-weight: 600;
+}
+
+/* Main Banner */
+
+.main-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+.main-banner img{
+    max-width: 850px;
+    max-height: 150x;
+    
+    
+    
+}
+
+/* What Do We Do */
+
+.description{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin: 100px auto;
+    max-width:1300px;
+    max-height: 450px;
+    padding: 20px;
+    box-shadow: rgba(75, 50, 93, 0.10) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 25px;
+    
+
+    
+    
+    
+
+
+}
+
+.description h2{
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: 'Montserrat' sans-serif;
+
+
+}
+
+.description p {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Enhance Section */
+
+.enhance-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    max-height: 550px;
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+.enhance-desc img{
+    max-width: 450px;
+    
+
+}
+
+.enhance-desc .right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    max-width: 600px;
+    max-height: 600px;
+    padding: 20px;
+    
+    
+
+}
+
+.enhance-desc .right-side h2{
+    font-size: var(--subtitle);
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.enhance-desc .right-side p{
+    font-size: var(--paragraph);
+}
+
+
+.border-break{
+    border-bottom: solid 5px rgb(184, 184, 184);
+}
+
+
+/* Footer */
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+}
+
+.footer .footer-logo img{
+    max-width: 100px;
+      
+}
+.footer .footer-logo{
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.footer .copyright{
+    margin: 5px 0;
+}
+
+footer .footer-navigation{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px 0;
+    margin-bottom: 10px;
+
+    
+}
+
+.footer .footer-navigation li{
+    margin: 0 10px;
+}
+
+.footer .footer-navigation li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Services Page */
+.services-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 100px 30px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: rgba(75, 50, 93, 0.10) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 25px;
+
+}
+
+.services-desc h2{
+    font-size: var(--subtitle);
+    margin: 20px 0;
+}
+
+.services-desc p{
+    font-size: var(--paragraph);
+}
+
+/* Products */
+.products{
+    display: flex;
+    flex-direction: row;
+    max-height: 1200px;
+    max-width: 1300px;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+.product .in-products h2{
+    font-size: 40px;
+}
+
+.products .in-products{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: auto 20px;
+    padding: 35px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1050px;
+}
+
+.products .in-products h2{
+
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.products .in-products .subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.products .in-products .subtitle h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.products .list{
+    list-style: none;
+    max-width: 340px;
+    padding: 20px 30px;
+}
+
+.products .list li{
+    list-style:square;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+    
+}
+
+.products .in-products .subtitle p{
+    font-size: var(--paragraph);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/* Contact Us */
+
+.products .contact-product{
+    border-style: none;
+    margin: 30px auto;
+}
+.products .contact-product a{
+
+    background-color: black;
+    padding: 15px;
+    color: white;
+    
+    
+    
+}
+
+
+/* Contact Page */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+    flex-wrap: wrap;
+}
+
+.form h2{
+    font-size: var(--subtitle);
+    margin: 20px 0;
+}
+
+.form .inside-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.form .inside-form .name{
+
+    
+    width: 790px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+
+}
+.form .inside-form .name input{
+    width: 350px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 10px;
+}
+
+.form .inside-form .other-form{
+    max-width: 800px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+
+}
+
+.form .inside-form .other-form input{
+    height: 75px;
+    margin: 20px 0;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 10px;
+}
+.form .inside-form .other-form #message-area{
+    min-height: 150px;
+    max-height: 300px ;
+    min-width: 790px;
+    max-width: 790px;
+    padding: 10px;
+}
+
+.form .inside-form button{
+    padding: 10px;
+    border-style: none;
+    background-color: black;
+    width: 350px;
+    height: 50px;
+    margin: 20px auto;
+
+
+}
+
+.form .inside-form button a{
+    background-color: black;
+    color: white;
+}
+
+
+

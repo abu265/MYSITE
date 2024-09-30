@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>MYSITE | Home</title>
+</head>
+<body>
+    <header>
+            <h1 class="logo">MY<span>SITE</span></h1>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="current">Contact Us</a></li>
+            </ul>
+    </header>
+    
+    <div class="form">
+        <form class="inside-form">
+            <h2>CONTACT FORM:</h2>
+            <div class="name">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <div class="other-form">
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Company">
+                <input list="services" placeholder="Which Service">
+                <datalist id="services">
+                    <option value="Website Builder"></option>
+                    <option value="Website Redesign"></option>
+                    <option value="Website Support"></option>
+                    <option value="Other/Help"></option>
+                </datalist>
+                <textarea name="message-area" id="message-area" placeholder="Send Us A Message..."></textarea>
+                <button id="submit"><a href="#">SEND</a></button>
+            </div>
+
+
+
+        </form>
+
+
+    </div>    
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="assests/images/logo.png" alt="Logo">
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; MYSITE 2024 MYSITE, Inc</p>
+        </div>
+
+        <ul class="footer-navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
